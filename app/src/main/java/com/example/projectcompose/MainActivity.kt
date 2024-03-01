@@ -38,6 +38,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.projectcompose.examples.BouncyRopes
 import com.example.projectcompose.examples.DotsPreview
 import com.example.projectcompose.ui.theme.ProjectComposeTheme
 
@@ -94,6 +95,7 @@ fun TestPreview() {
             MessageCard()
             MessageCardTwo()
             DotsPreview()
+            BouncyRopes()
         }
     }
 }
